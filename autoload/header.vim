@@ -48,7 +48,8 @@ fun s:set_props()
         \ b:filetype == 'javascript' ||
         \ b:filetype == 'javascript.jsx' ||
         \ b:filetype == 'php' ||
-        \ b:filetype == 'sass'
+        \ b:filetype == 'sass' ||
+        \ b:filetype == 'go'
 
         let b:block_comment = 1
         let b:comment_char = ' *'
